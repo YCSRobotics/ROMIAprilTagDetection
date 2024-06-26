@@ -1,0 +1,42 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "RomiGyro": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser"
+    },
+    "windows": {
+      "/SmartDashboard/SendableChooser[0]": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "CameraPublisher": {
+        "open": true
+      },
+      "Shuffleboard": {
+        ".metadata": {
+          "open": true
+        }
+      },
+      "SmartDashboard": {
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
